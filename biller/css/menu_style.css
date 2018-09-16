@@ -1,0 +1,15 @@
+#menubar
+{
+width:100%;
+position:absolute;
+top:10%;
+}
+a.menu
+{
+text-decoration:none;
+color:#666633;
+}
+th.menu
+{
+ background-color:#F5F5DC;
+}

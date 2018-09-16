@@ -1,0 +1,55 @@
+<html>
+<head>
+<script language="javascript">
+function verifyform()
+{
+var pa=document.getElementById("pass").value;
+var id=document.getElementById("id").value;
+var f=0;
+if(id=="")
+{
+document.getElementById("nmalert").innerHTML="<font color=red>please provide user id!</font>";
+f=1;
+}
+else
+{
+document.getElementById("nmalert").innerHTML="";
+}	
+if(pa=="")
+{
+document.getElementById("passalert").innerHTML="<font color=red>please provide password!</font>";
+f=1;
+}
+else
+{
+document.getElementById("passalert").innerHTML="";
+}
+if(f==1)
+{
+return false;
+}
+}
+</script>
+<link rel="stylesheet" type="text/css" href="css/index_style.css" />
+</head>
+<body>
+<form action=logincheck.jsp method=post onsubmit="return verifyform()">
+<div id=height_pos>
+<center>
+<div id=cname>G.B. Enterprise</div><br>
+<table id=credentials>
+<tr>
+<td>User-Id</td><td><input type=text name=logid id=id><div id="nmalert"></div></td>
+</tr>
+<tr>
+<td>Password</td><td><input type=password name=pass id=pass><div id="passalert"></div></td>
+</tr>
+<tr>
+<td><input type=reset value=reset></td><td align="right"><input type=submit value=login></td>
+</tr>
+</table>
+<center>
+</div>
+</form>
+</body>
+</html>

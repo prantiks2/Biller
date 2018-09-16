@@ -1,0 +1,19 @@
+#pay
+{
+position:absolute;
+top:20%;
+}
+#billdetails
+{
+border-collapse: collapse;
+width:88%;
+position:absolute;
+top:35%;
+margin-left:6%; 
+margin-right:6%;
+}
+td
+{
+text-align:center;
+padding: 8px;
+}

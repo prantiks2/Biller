@@ -1,0 +1,49 @@
+#vendorentry
+{
+position:absolute;
+top:20%;
+left:8%;
+}
+#tableinfo
+{
+position:absolute;
+top:38%;
+left:42%
+}
+#fail
+{
+font-size:40px;
+position:absolute;
+top:30%;
+left:34%;
+color:red;
+}
+#vbillentry
+{
+position:absolute;
+top:46%;
+left:10%;
+}
+#billlist
+{
+border-collapse: collapse;
+width:80%;
+position:absolute;
+top:68%;
+left:8%;
+}
+#res
+{
+text-align:center;
+border-bottom: 1px solid #ddd;
+padding: 8px;
+}
+#itemlink
+{
+text-decoration:none;
+color:black;
+}
+#resrow:hover
+{
+background-color: #f5f5f5
+}
